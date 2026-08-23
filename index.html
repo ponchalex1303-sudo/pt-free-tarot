@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Cósmico — Guias Digitais</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #0d0814;
+            color: #f0e6ff;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 440px;
+            padding: 40px 20px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin: 0 0 5px 0;
+            color: #ffffff;
+        }
+
+        .subtitle {
+            font-size: 13px;
+            color: #b388ff;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .card-link {
+            display: block;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(179, 136, 255, 0.15);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: #ffffff;
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+            text-align: left;
+        }
+
+        .card-link:hover {
+            background: rgba(179, 136, 255, 0.07);
+            border-color: #b388ff;
+            transform: translateY(-2px);
+        }
+
+        .premium {
+            background: linear-gradient(135deg, rgba(81, 45, 168, 0.1) 0%, rgba(255, 255, 255, 0.02) 100%);
+            border: 1px solid rgba(179, 136, 255, 0.35);
+        }
+
+        .premium:hover {
+            border-color: #d1b3ff;
+        }
+
+        .btn-title {
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 6px;
+            color: #ffffff;
+        }
+
+        .btn-desc {
+            font-size: 13px;
+            color: #cbd1df;
+            line-height: 1.4;
+        }
+
+        .price-tag {
+            display: inline-block;
+            margin-top: 12px;
+            background: #b388ff;
+            color: #0d0814;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Guia Cósmico</h1>
+        <div class="subtitle">O seu guia para as áreas da vida</div>
+
+        <!-- GUIA GRATUITO -->
+        <a href="pt-free-tarot-guide.pdf" download class="card-link">
+            <div class="btn-title">🔮 Guia Grátis: 5 Jogos Simples de Tarot</div>
+            <div class="btn-desc">Perfeito para iniciantes + bônus incluso: como escolher o seu primeiro baralho de Tarot ideal.</div>
+        </a>
+
+        <!-- GUIA PREMIUM -->
+        <a href="SEU_LINK_DE_PAGAMENTO" class="card-link premium">
+            <div class="btn-title">📘 Guia: "Como Ler o Tarot para Si Mesmo"</div>
+            <div class="btn-desc">Manual completo para iniciantes: análise de 78 cartas, técnicas práticas de leitura e jogos prontos para usar.</div>
+            <div class="price-tag">GARANTA JÁ — $7.90</div>
+        </a>
+    </div>
+
+</body>
+</html>
